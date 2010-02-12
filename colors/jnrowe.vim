@@ -1,7 +1,7 @@
 " Vim colour file
 " Name:       jnrowe.vim
 " Maintainer: James Rowe <jnrowe@gmail.com>
-" Homepage:   http://github.com/JNRowe/vim-configs/blob/master/colors/jnrowe.vim
+" Homepage:   http://github.com/JNRowe/vim-jnrowe
 "
 " This theme is designed for the GUI.
 "
