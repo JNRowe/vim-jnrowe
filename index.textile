@@ -1,0 +1,37 @@
+---
+layout: default
+title: vim-jnrowe
+main_header: vim-jnrowe
+description: My ugly vim colour scheme
+categories: [index, vim, colours, colourscheme]
+---
+
+h2. Introduction
+
+What the "vim":http://www.vim.org/ world _really_ needed is another colourscheme, so here it is.
+
+!default.png!
+
+If you prefer darker backgrounds, use the following:
+
+{% highlight vim %}
+let g:jnrowe_dark = 1
+colorscheme jnrowe
+{% endhighlight %}
+
+With a @g:jnrowe_dark@ set it will look more like this:
+
+!dark.png!
+
+h2. Contact
+
+"James Rowe":jnrowe@gmail.com
+
+h2. Download
+
+You can download the colourscheme "directly":http://github.com/JNRowe/vim-jnrowe/raw/master/colors/jnrowe.vim, or clone the repository:
+
+{% highlight text %}
+$ git clone git://github.com/JNRowe/vim-jnrowe
+{% endhighlight %}
+
