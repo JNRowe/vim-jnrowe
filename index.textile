@@ -19,13 +19,15 @@ let g:jnrowe_dark = 1
 colorscheme jnrowe
 {% endhighlight %}
 
-With a @g:jnrowe_dark@ set it will look more like this:
+With @g:jnrowe_dark@ set it will look more like this:
 
 !dark.png!
 
 h2. Contact
 
 "James Rowe":jnrowe@gmail.com
+
+File an "issue":http://github.com/JNRowe/vim-jnrowe/issues if you find any problems, or "fork":http://github.com/JNRowe/vim-jnrowe the repository if you want to make improvements.
 
 h2. Download
 
