@@ -23,6 +23,10 @@ With @g:jnrowe_dark@ set it will look more like this:
 
 !dark.png!
 
+Recent versions also work in terminals that support at least 88 colours, such as "rxvt-unicode":http://software.schmorp.de/pkg/rxvt-unicode.html or "xterm":http://dickey.his.com/xterm/.  The display is highly dependent on the settings of your terminal application, on my desktop it looks like this:
+
+!terminal.png!
+
 h2. Contact
 
 "James Rowe":jnrowe@gmail.com
