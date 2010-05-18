@@ -119,6 +119,7 @@ highlight Statement                    guifg=#f57900  gui=bold
     \             ctermfg=68  cterm=bold
 highlight String                       guifg=#edd400
     \             ctermfg=11
+highlight Test          guibg=#555753  guifg=#edd400
 highlight Type                         guifg=#73d216
     \             ctermfg=44
 highlight Warning                      guifg=#ef2929  gui=italic
