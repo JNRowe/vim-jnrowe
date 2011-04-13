@@ -12,16 +12,16 @@ What the "vim":http://www.vim.org/ world _really_ needed is another colourscheme
 
 !default.png!
 
-If you prefer darker backgrounds, use the following:
+If you prefer lighter backgrounds, use the following:
 
 {% highlight vim %}
-let g:jnrowe_dark = 1
+let g:jnrowe_dark = 0
 colorscheme jnrowe
 {% endhighlight %}
 
 With @g:jnrowe_dark@ set it will look more like this:
 
-!dark.png!
+!light.png!
 
 Recent versions also work in terminals that support at least 88 colours, such as "rxvt-unicode":http://software.schmorp.de/pkg/rxvt-unicode.html or "xterm":http://dickey.his.com/xterm/.  The display is highly dependent on the settings of your terminal application, on my desktop it looks like this:
 
