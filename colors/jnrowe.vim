@@ -10,7 +10,7 @@
 " isn't really a tango theme.  The terminal colours are supposed to be close
 " approximations to the GUI settings.
 "
-" To use a darker background, :let g:jnrowe_dark = 1
+" To use a lighter background, :let g:jnrowe_dark = 0
 
 set background=dark
 
@@ -20,7 +20,7 @@ if exists("syntax_on")
 endif
 
 if !exists("g:jnrowe_dark")
-    let g:jnrowe_dark = 0
+    let g:jnrowe_dark = 1
 endif
 
 let colors_name = "jnrowe"
