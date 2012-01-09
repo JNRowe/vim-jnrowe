@@ -12,5 +12,3 @@ If you find any problems with the colourscheme file an issue_.
 .. _vim: http://www.vim.org/
 .. _hosted version: http://jnrowe.github.com/vim-jnrowe/
 .. _issue: http://github.com/JNRowe/vim-jnrowe/issues
-
-.. vim: set ft=rst ts=8 sw=4 tw=80 et:
