@@ -11,6 +11,8 @@
 " approximations to the GUI settings.
 "
 " To use a lighter background, :let g:jnrowe_dark = 0
+"
+" To disable the statusline mode hook, :let jnrowe_mode_statusline = 0
 
 set background=dark
 
@@ -21,6 +23,10 @@ endif
 
 if !exists("g:jnrowe_dark")
     let g:jnrowe_dark = 1
+endif
+
+if !exists("g:jnrowe_mode_statusline")
+    let g:jnrowe_mode_statusline = 1
 endif
 
 let colors_name = "jnrowe"
@@ -128,7 +134,7 @@ highlight Warning                      guifg=#ef2929  gui=italic
 " Hooks {{{
 " I realise people don't like this type of thing in colourschemes, but I don't
 " care as toggling this correctly is horrendous!
-if version >= 700
+if g:jnrowe_mode_statusline == 1 && version >= 700
     function! s:InsertColour(mode)
         if a:mode == 'i'
             let bg_colour = "#73d216"
