@@ -1,7 +1,7 @@
 " Vim colour file
 " Name:       jnrowe.vim
 " Maintainer: James Rowe <jnrowe@gmail.com>
-" Homepage:   http://github.com/JNRowe/vim-jnrowe
+" Homepage:   https://github.com/JNRowe/vim-jnrowe
 "
 " This theme is designed for the GUI, but features a /slightly/ more ugly
 " terminal mode for 88 colour terms.
