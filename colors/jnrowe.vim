@@ -31,7 +31,7 @@ endif
 
 let colors_name = "jnrowe"
 
-" Base colours
+" Base colours {{{
 highlight Cursor        guibg=#d3d7cf
     \ ctermbg=86
 if !g:jnrowe_dark
@@ -49,8 +49,9 @@ highlight Visual        guibg=#555753                 gui=bold
     \ ctermbg=81                 cterm=bold
 highlight lCursor       guibg=#eeeeec
     \ ctermbg=87
+" }}}
 
-" Search
+" Search {{{
 highlight IncSearch     guibg=#fce94f  guifg=#cc0000  gui=italic
     \ ctermbg=87                 cterm=italic
 if v:version >= 700
@@ -59,8 +60,9 @@ if v:version >= 700
 endif
 highlight Search        guibg=#fce94f  guifg=#a40000  gui=italic
     \ ctermbg=87  ctermfg=48  cterm=italic
+" }}}
 
-" Window stuff
+" Window stuff {{{
 highlight CursorColumn  guibg=#888a85
     \ ctermbg=83
 highlight CursorLine    guibg=#555753
@@ -79,15 +81,17 @@ highlight StatusLineNC  guibg=#263442  guifg=#999999  gui=italic,underline
     \ ctermbg=17  ctermfg=83  cterm=italic,underline
 highlight VertSplit     guibg=#a0b0c0  guifg=#a0b0c0
     \ ctermbg=43 ctermfg=43
+" }}}
 
-" Command line
+" Command line {{{
 highlight ErrorMsg      guibg=#ef2929  guifg=#eeeeec  gui=undercurl
     \ ctermbg=48  ctermfg=86  cterm=undercurl
 highlight WarningMsg                   guifg=#ef2929  gui=italic
     \             ctermfg=48  cterm=italic
+" }}}
 
+" Popup menu {{{
 if v:version >= 700
-    " Popup menu
     highlight Pmenu     guibg=#555753  guifg=#d3d7cf
         \ ctermbg=81  ctermfg=86
     highlight PmenuSbar guibg=#888a85  guifg=#eeeeec
@@ -95,16 +99,18 @@ if v:version >= 700
     highlight PmenuSel  guibg=#73d216  guifg=#2e3436  gui=italic
         \ ctermbg=44  ctermfg=37  cterm=italic
 endif
+" }}}
 
-" Specials
+" Specials {{{
 highlight Special       guifg=#fd8900
     \             ctermfg=68
 highlight Title                        guifg=#ffffff  gui=bold
     \             ctermfg=15  cterm=bold
 highlight Todo          guibg=#520000  guifg=#e50808  gui=bold
     \ ctermbg=32  ctermfg=9   cterm=bold
+" }}}
 
-" Syntax
+" Syntax {{{
 highlight Comment       guibg=#555753  guifg=#eeeeec  gui=italic
     \ ctermbg=81  ctermfg=87  cterm=italic
 highlight Constant                     guifg=#8ae234
@@ -130,6 +136,7 @@ highlight Type                         guifg=#73d216
     \             ctermfg=44
 highlight Warning                      guifg=#ef2929  gui=italic
     \             ctermfg=48  cterm=italic
+" }}}
 
 " Hooks {{{
 " I realise people don't like this type of thing in colourschemes, but I don't
