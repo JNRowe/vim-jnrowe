@@ -87,6 +87,15 @@ highlight VertSplit     guibg=#a0b0c0  guifg=#a0b0c0
 highlight SignColumn    guibg=#2a2a2a
     \ ctermbg=8
 
+highlight GitGutterAdd
+    \                   guibg=#babdb6  guifg=#73d216
+highlight GitGutterChange
+    \                   guibg=#babdb6  guifg=#f57900
+highlight GitGutterChangeDelete
+    \                   guibg=#2e3436  guifg=#f57900
+highlight GitGutterDelete
+    \                   guibg=#2e3436  guifg=#cc0000
+
 highlight SyntasticErrorSign
     \                   guibg=#ef2929  guifg=#eeeeec  gui=undercurl
     \ ctermbg=48  ctermfg=86  cterm=undercurl
