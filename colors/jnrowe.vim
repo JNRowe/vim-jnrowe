@@ -25,7 +25,7 @@ if !exists("g:jnrowe_dark")
     let g:jnrowe_dark = 1
 endif
 
-if !exists("g:jnrowe_mode_statusline")
+if !exists("g:jnrowe_mode_statusline") && !exists("g:loaded_airline")
     let g:jnrowe_mode_statusline = 1
 endif
 
