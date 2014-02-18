@@ -81,6 +81,8 @@ highlight StatusLineNC  guibg=#263442  guifg=#999999  gui=italic,underline
     \ ctermbg=17  ctermfg=83  cterm=italic,underline
 highlight VertSplit     guibg=#a0b0c0  guifg=#a0b0c0
     \ ctermbg=43 ctermfg=43
+highlight WildMenu      guibg=#73d216  guifg=#2e3436  gui=italic
+        \ ctermbg=44  ctermfg=37  cterm=italic
 " }}}
 
 " Signs support {{{
