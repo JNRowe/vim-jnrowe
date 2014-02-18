@@ -148,6 +148,8 @@ highlight Label                        guifg=#888a85
     \             ctermfg=83
 highlight Number                       guifg=#d3d7cf  gui=bold
     \             ctermfg=86  cterm=bold
+highlight Operator                     guifg=#729fcf  gui=bold
+    \             ctermfg=6  cterm=bold
 highlight PreProc                      guifg=#edd400  gui=bold
     \             ctermfg=11  cterm=bold
 highlight Statement                    guifg=#f57900  gui=bold
