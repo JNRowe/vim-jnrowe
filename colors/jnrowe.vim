@@ -163,6 +163,13 @@ highlight Warning                      guifg=#ef2929  gui=italic
     \             ctermfg=48  cterm=italic
 " }}}
 
+" NERDTree support {{{
+highlight Directory     guibg=#555753  guifg=#babdb6
+highlight NERDTreeUp                   guifg=#73d216
+highlight NERDTreeCWD   guibg=#fce94f  guifg=#a40000  gui=italic
+    \ ctermbg=87  ctermfg=48  cterm=italic
+" }}}
+
 " Hooks {{{
 " I realise people don't like this type of thing in colourschemes, but I don't
 " care as toggling this correctly is horrendous!
