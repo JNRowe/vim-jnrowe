@@ -67,6 +67,8 @@ highlight CursorColumn  guibg=#888a85
     \ ctermbg=83
 highlight CursorLine    guibg=#555753
     \ ctermbg=81
+highlight CursorLineNr  guibg=#555753  guifg=#d3d7cf
+    \ ctermbg=81  ctermfg=86
 highlight FoldColumn    guibg=#4a4a4a  guifg=#dedede
     \ ctermbg=8   ctermfg=86
 highlight Folded        guibg=#8090a0  guifg=#111111
