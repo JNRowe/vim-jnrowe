@@ -75,14 +75,17 @@ highlight Folded        guibg=#8090a0  guifg=#111111
     \ ctermbg=39  ctermfg=8
 highlight LineNr        guibg=#222222  guifg=#aaaaaa  gui=italic
     \ ctermbg=80  ctermfg=84  cterm=italic
-highlight SignColumn    guibg=#2a2a2a
-    \ ctermbg=8
 highlight StatusLine    guibg=#4d6884  guifg=#ffffff  gui=bold,underline
     \ ctermbg=43  ctermfg=15  cterm=bold,underline
 highlight StatusLineNC  guibg=#263442  guifg=#999999  gui=italic,underline
     \ ctermbg=17  ctermfg=83  cterm=italic,underline
 highlight VertSplit     guibg=#a0b0c0  guifg=#a0b0c0
     \ ctermbg=43 ctermfg=43
+" }}}
+
+" Signs support {{{
+highlight SignColumn    guibg=#2a2a2a
+    \ ctermbg=8
 " }}}
 
 " Command line {{{
