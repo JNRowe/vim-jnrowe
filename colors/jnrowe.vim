@@ -34,6 +34,8 @@ let colors_name = "jnrowe"
 " Base colours {{{
 highlight Cursor        guibg=#d3d7cf
     \ ctermbg=86
+highlight lCursor       guibg=#eeeeec
+    \ ctermbg=87
 if !g:jnrowe_dark
     highlight NonText   guibg=#555753  guifg=#babdb6
         \ ctermbg=81  ctermfg=85
@@ -47,8 +49,6 @@ else
 endif
 highlight Visual        guibg=#555753                 gui=bold
     \ ctermbg=81                 cterm=bold
-highlight lCursor       guibg=#eeeeec
-    \ ctermbg=87
 " }}}
 
 " Search {{{
