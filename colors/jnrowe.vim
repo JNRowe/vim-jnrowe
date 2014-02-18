@@ -86,6 +86,13 @@ highlight VertSplit     guibg=#a0b0c0  guifg=#a0b0c0
 " Signs support {{{
 highlight SignColumn    guibg=#2a2a2a
     \ ctermbg=8
+
+highlight SyntasticErrorSign
+    \                   guibg=#ef2929  guifg=#eeeeec  gui=undercurl
+    \ ctermbg=48  ctermfg=86  cterm=undercurl
+highlight SyntasticWarningSign
+    \                   guifg=#ef2929                 gui=italic
+    \ ctermfg=48              cterm=italic
 " }}}
 
 " Command line {{{
