@@ -9,7 +9,7 @@ What the vim_ world *really* needed is another colourscheme, so here it is.
 
 If you prefer lighter backgrounds, use the following:
 
-.. code-block:: vim
+.. code:: vim
 
     let g:jnrowe_dark = 0
     colorscheme jnrowe
