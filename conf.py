@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'vim-jnrowe'
-copyright = u'2009-2011  James Rowe'
+copyright = u'2009-2015  James Rowe'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
