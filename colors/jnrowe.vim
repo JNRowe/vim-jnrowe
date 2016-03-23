@@ -177,7 +177,8 @@ highlight NERDTreeCWD   guibg=#fce94f  guifg=#a40000  gui=italic
 " Hooks {{{
 " I realise people don't like this type of thing in colourschemes, but I don't
 " care as toggling this correctly is horrendous!
-if g:jnrowe_mode_statusline == 1 && version >= 700
+if exists("g:jnrowe_mode_statusline") && g:jnrowe_mode_statusline == 1
+    \ && v:version >= 700
     function! s:InsertColour(mode)
         if a:mode == 'i'
             let bg_colour = "#73d216"
