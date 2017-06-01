@@ -167,6 +167,17 @@ highlight Warning                      guifg=#ef2929  gui=italic
     \              ctermfg=167  cterm=italic
 " }}}
 
+" Spelling support {{{
+highlight SpellBad      guibg=#ef2929  guifg=#eeeeec  gui=undercurl
+    \ ctermbg=167  ctermfg=255  cterm=italic
+highlight SpellCap      guibg=#555753  guifg=#edd400
+    \ ctermbg=59   ctermfg=255
+highlight SpellRare     guibg=#555753  guifg=#edd400  gui=italic
+    \ ctermbg=59   ctermfg=255  cterm=italic
+highlight SpellLocal    guibg=#555753  guifg=#edd400  gui=bold
+    \ ctermbg=59   ctermfg=255  cterm=bold
+" }}}
+
 " NERDTree support {{{
 highlight Directory     guibg=#555753  guifg=#babdb6
 highlight NERDTreeUp                   guifg=#73d216
