@@ -22,11 +22,11 @@ if exists("syntax_on")
 endif
 
 if !exists("g:jnrowe_dark")
-    let g:jnrowe_dark = 1
+    let g:jnrowe_dark = v:true
 endif
 
 if !exists("g:jnrowe_mode_statusline") && !exists("g:loaded_airline")
-    let g:jnrowe_mode_statusline = 1
+    let g:jnrowe_mode_statusline = v:true
 endif
 
 let colors_name = "jnrowe"
@@ -188,7 +188,7 @@ highlight NERDTreeCWD   guibg=#fce94f  guifg=#a40000  gui=italic
 " Hooks {{{
 " I realise people don’t like this type of thing in colourschemes, but I don’t
 " care as toggling this correctly is horrendous!
-if exists("g:jnrowe_mode_statusline") && g:jnrowe_mode_statusline == 1
+if exists("g:jnrowe_mode_statusline") && g:jnrowe_mode_statusline == v:true
     \ && v:version >= 700
     function! s:InsertColour(mode)
         if a:mode == 'i'
