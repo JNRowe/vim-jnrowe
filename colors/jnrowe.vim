@@ -7,12 +7,12 @@
 " terminal mode for 88 colour terms.
 "
 " The colours are based around the tango palette for the GUI version, but this
-" isn't really a tango theme.  The terminal colours are supposed to be close
+" isn’t really a tango theme.  The terminal colours are supposed to be close
 " approximations to the GUI settings.
 "
-" To use a lighter background, :let g:jnrowe_dark = 0
+" To use a lighter background, :let g:jnrowe_dark = v:false
 "
-" To disable the statusline mode hook, :let jnrowe_mode_statusline = 0
+" To disable the statusline mode hook, :let jnrowe_mode_statusline = v:false
 
 set background=dark
 
@@ -186,7 +186,7 @@ highlight NERDTreeCWD   guibg=#fce94f  guifg=#a40000  gui=italic
 " }}}
 
 " Hooks {{{
-" I realise people don't like this type of thing in colourschemes, but I don't
+" I realise people don’t like this type of thing in colourschemes, but I don’t
 " care as toggling this correctly is horrendous!
 if exists("g:jnrowe_mode_statusline") && g:jnrowe_mode_statusline == 1
     \ && v:version >= 700
@@ -211,8 +211,8 @@ if exists("g:jnrowe_mode_statusline") && g:jnrowe_mode_statusline == 1
     autocmd InsertLeave *
         \ highlight StatusLine guibg=#4d6884                 gui=bold,underline
             \ ctermbg=24                cterm=bold,underline
-    " When we leave this colourscheme(but we won't!) drop our events so they
-    " don't interfere with other colourschemes
+    " When we leave this colourscheme(but we won’t!) drop our events so they
+    " don’t interfere with other colourschemes
     function! s:ScrubEvents()
         if g:colors_name !=# "jnrowe" |
             autocmd! jnrowe_color
