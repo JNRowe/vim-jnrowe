@@ -89,16 +89,16 @@ highlight WildMenu      guibg=#73d216  guifg=#2e3436  gui=italic
 highlight SignColumn    guibg=#2a2a2a
     \ ctermbg=235
 
-highlight GitGutterAdd
+highlight SignifySignAdd
     \                   guibg=#babdb6  guifg=#73d216
     \ ctermbg=250  ctermfg=112
-highlight GitGutterChange
+highlight SignifySignChange
     \                   guibg=#babdb6  guifg=#f57900
     \ ctermbg=250  ctermfg=208
-highlight GitGutterChangeDelete
+highlight SignifySignChangeDelete
     \                   guibg=#2e3436  guifg=#f57900
     \ ctermbg=95   ctermfg=208
-highlight GitGutterDelete
+highlight SignifySignDelete
     \                   guibg=#2e3436  guifg=#cc0000
     \ ctermbg=95   ctermfg=160
 
