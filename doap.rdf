@@ -7,10 +7,10 @@
     <shortname>vim-jnrowe</shortname>
 
     <shortdesc xml:lang="en">
-        A tango_ inspired colourscheme for vim
+        A tango inspired colourscheme for vim
     </shortdesc>
     <description xml:lang="en">
-        What the vim_ world *really* needed is another colourscheme, so here it
+        What the vim world *really* needed is another colourscheme, so here it
         is.
 
         Recent versions also work in terminals that support at least 88 colours,
