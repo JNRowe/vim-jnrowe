@@ -18,12 +18,12 @@
         settings of your terminal application.
     </description>
 
-    <homepage rdf:resource="https://github.com/JNRowe/vim-jnrowe" />
-    <bug-database rdf:resource="http://github.com/JNRowe/vim-jnrowe/issues" />
+    <homepage rdf:resource="https://github.com/JNRowe/vim-jnrowe/" />
+    <bug-database rdf:resource="https://github.com/JNRowe/vim-jnrowe/issues/" />
     <repository>
         <GitRepository>
-            <location rdf:resource="git://github.com/JNRowe/vim-jnrowe.git" />
-            <browse rdf:resource="https://github.com/JNRowe/vim-jnrowe" />
+            <location rdf:resource="https://github.com/JNRowe/vim-jnrowe.git" />
+            <browse rdf:resource="https://github.com/JNRowe/vim-jnrowe/" />
         </GitRepository>
     </repository>
     <created>2013-04-05</created>
@@ -34,7 +34,7 @@
         <foaf:Person>
             <foaf:name>James Rowe</foaf:name>
             <mbox rdf:resource="mailto:jnrowe@gmail.com" />
-            <rdfs:homepage rdf:resource="http://jnrowe.github.io" />
+            <rdfs:homepage rdf:resource="https://jnrowe.github.io/" />
         </foaf:Person>
     </maintainer>
 </Project>
