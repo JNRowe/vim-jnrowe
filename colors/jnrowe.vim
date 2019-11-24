@@ -12,7 +12,7 @@
 "
 " To use a lighter background, :let g:jnrowe_dark = v:false
 "
-" To disable the statusline mode hook, :let jnrowe_mode_statusline = v:false
+" To disable the statusline mode hook, :let g:jnrowe_mode_statusline = v:false
 
 set background=dark
 
@@ -29,7 +29,7 @@ if !exists("g:jnrowe_mode_statusline") && !exists("g:loaded_airline")
     let g:jnrowe_mode_statusline = v:true
 endif
 
-let colors_name = "jnrowe"
+let g:colors_name = "jnrowe"
 
 " Base colours {{{
 highlight Cursor        guibg=#d3d7cf
