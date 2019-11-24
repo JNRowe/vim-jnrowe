@@ -26,7 +26,7 @@ let s:jnrowe_dark = get(g:, "jnrowe_dark", v:true)
 let s:jnrowe_mode_statusline = get(g:, "loaded_airline",
     \                              get(g:, "jnrowe_mode_statusline"))
 
-let g:colors_name = "jnrowe"
+let g:colors_name = expand('<sfile>:t:r')
 
 " Base colours {{{
 highlight Cursor        guibg=#d3d7cf
