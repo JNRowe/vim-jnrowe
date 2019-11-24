@@ -21,13 +21,10 @@ if exists("syntax_on")
     syntax reset
 endif
 
-if !exists("g:jnrowe_dark")
-    let g:jnrowe_dark = v:true
-endif
+let s:jnrowe_dark = get(g:, "jnrowe_dark", v:true)
 
-if !exists("g:jnrowe_mode_statusline") && !exists("g:loaded_airline")
-    let g:jnrowe_mode_statusline = v:true
-endif
+let s:jnrowe_mode_statusline = get(g:, "loaded_airline",
+    \                              get(g:, "jnrowe_mode_statusline"))
 
 let g:colors_name = "jnrowe"
 
@@ -36,7 +33,7 @@ highlight Cursor        guibg=#d3d7cf
     \ ctermbg=253
 highlight lCursor       guibg=#eeeeec
     \ ctermbg=255
-if !g:jnrowe_dark
+if !s:jnrowe_dark
     highlight NonText   guibg=#555753  guifg=#babdb6
         \ ctermbg=59   ctermfg=250
     highlight Normal    guibg=#454545  guifg=#f4f4f4
@@ -188,8 +185,7 @@ highlight NERDTreeCWD   guibg=#fce94f  guifg=#a40000  gui=italic
 " Hooks {{{
 " I realise people don’t like this type of thing in colourschemes, but I don’t
 " care as toggling this correctly is horrendous!
-if exists("g:jnrowe_mode_statusline") && g:jnrowe_mode_statusline == v:true
-    \ && v:version >= 700
+if s:jnrowe_mode_statusline && v:version >= 700
     function! s:InsertColour(mode)
         if a:mode == 'i'
             let bg_colour = "#73d216"
