@@ -201,20 +201,20 @@ if s:jnrowe_mode_statusline && v:version >= 700
         execute("highlight StatusLine ctermbg=" . tbg_colour . " cterm=underline")
     endfunction
 
-    augroup jnrowe_color
-    autocmd!
-    autocmd InsertEnter,InsertChange * call s:InsertColour(v:insertmode)
-    autocmd InsertLeave *
-        \ highlight StatusLine guibg=#4d6884                 gui=bold,underline
-            \ ctermbg=24                cterm=bold,underline
-    " When we leave this colourscheme(but we won’t!) drop our events so they
-    " don’t interfere with other colourschemes
-    function! s:ScrubEvents()
-        if g:colors_name !=# "jnrowe" |
-            autocmd! jnrowe_color
-        endif
-    endfunction
-    autocmd ColorScheme * call s:ScrubEvents()
+    augroup jnrowe_colour
+        autocmd!
+        autocmd InsertEnter,InsertChange * call s:InsertColour(v:insertmode)
+        autocmd InsertLeave *
+            \ highlight StatusLine guibg=#4d6884                 gui=bold,underline
+                \ ctermbg=24                cterm=bold,underline
+        " When we leave this colourscheme(but we won’t!) drop our events so they
+        " don’t interfere with other colourschemes
+        function! s:ScrubEvents()
+            if g:colors_name !=# "jnrowe" |
+                autocmd! jnrowe_color
+            endif
+        endfunction
+        autocmd ColorScheme * call s:ScrubEvents()
     augroup END
 endif
 " }}}
